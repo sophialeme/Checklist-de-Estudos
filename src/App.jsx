@@ -8,26 +8,64 @@ function App() {
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+    <div>
+      <h1 className='titulo'>Checklist de Estudos</h1>
+      <table className='tabela'>
+       <thead>
+        <tr>
+         <th>Matérias</th>
+         <th>Domingo</th>
+         <th>Segunda</th>
+         <th>Terça</th>
+         <th>Quarta</th>
+         <th>Quinta</th>
+         <th>Sexta</th>
+         <th>Sábado</th>
+        </tr>
+       </thead>
+       <tbody>
+         <tr>
+          <th>Artes</th>
+        </tr>
+        <tr>
+          <th>Argumentação</th>
+        </tr>
+        <tr>
+          <th>Biologia</th>
+        </tr>
+        <tr>
+          <th>Filosofia</th>
+        </tr>
+        <tr>
+          <th>Física</th>
+        </tr>
+        <tr>
+          <th>Geografia</th>
+        </tr>
+        <tr>
+          <th>História</th>
+        </tr>
+        <tr>
+          <th>Literatura</th>
+        </tr>
+        <tr>
+          <th>Ingles</th>
+        </tr>
+        <tr>
+          <th>Português</th>
+        </tr>
+        <tr>
+          <th>Projeto de vida</th>
+        </tr>
+        <tr>
+          <th>Química</th>
+        </tr>
+        <tr>
+          <th>Religião</th>
+         </tr>
+       </tbody>
+      </table>
+    </div>
     </>
   )
 }
